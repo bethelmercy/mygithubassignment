@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>HTML FORM</title>
+</head>
+<body>
+    <div>
+        <a href="http://127.0.0.1:5500/about.html"> Take me to about us page</a>
+    </div>
+    <div>
+        <a href="http://127.0.0.1:5500/contact.html"> Take me to contact us page</a>
+    </div>
+    <div>
+        <a href="http://127.0.0.1:5500/blog.html"> Take me to blog page</a>
+    </div>
+
+    
+
+    <table border="1">
+        <form>
+            <tr>
+                <th colspan="2"> <H2> Fill the form below</H2></th>
+            </tr>
+            <tr>
+                <td>First name:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Last name:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email"></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td> <input type="password" required></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                
+                <td>
+                <select id="Gender" name="Gender">
+                    <option value=> </option>
+                    <option value="Male"> Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Rather not say">Rather not say</option>
+                </select> 
+                </td>
+            </tr>
+            <tr>
+                <td>Favourite foods:</td>
+                <td>
+                
+                    <input type="checkbox" name="Favourite food">Rice
+                    <input type="checkbox" name="Favourite food">Beans
+                    <input type="checkbox" name="Favourite food">Spaghetti
+                    <input type="checkbox" name="Favourite food">Soup
+                    <input type="checkbox" name="Favourite food">Pizza
+            
+                </td>
+            </tr>
+            <tr>
+                <td>Certificate:</td>
+                <td>
+                    <select id="Certificate" name="Certificate">
+                        <option value=""> </option>
+                        <option value="FSLC"> FSLC</option>
+                        <option value="O'LEVEL">O'LEVEL</option>
+                        <option value="BSC">BSC</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Phone number:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>About yourself:</td>
+                <td><textarea></textarea></td>
+            </tr>
+            <tr>
+                <td> <button>Submit</button></td>
+            </tr>
+        </form>
+
+
+    </table>
+
+    
+</body>
+</html>
